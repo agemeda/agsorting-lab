@@ -7,7 +7,7 @@ import timeit
 import random
 
 # the following import line will only work if the sorting submodule has been correctly downloaded
-from sorting.sorting import merge_sorted, quick_sorted
+from sorting2.sorting import merge_sorted, quick_sorted
 
 if __name__ == '__main__':
 
@@ -55,7 +55,8 @@ if __name__ == '__main__':
         # You will have to look up how to do this formatting.
         # In order to get a proper markdown table,
         # you will have to also print a header line somewhere else.
-        print(f'len(xs)=2**{x} runtimes={runtimes}')
+
+        print(f" | {x} | {runtimes['timsort']:0.2e}) | {runtimes['merge_sorted']:0.2e} | {runtimes['quick_sorted']:0.23e} ")
 
         # HINT:
         # use f-strings and a print statement that looks something like
