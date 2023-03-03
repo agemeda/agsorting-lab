@@ -1,3 +1,6 @@
 [submodule "sorting"]
 	path = sorting
 	url = https://github.com/mikeizbicki/sorting
+[submodule "sorting2"]
+	path = sorting2
+	url = https://github.com/agemeda/sorting2
