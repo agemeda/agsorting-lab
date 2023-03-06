@@ -56,7 +56,7 @@ if __name__ == '__main__':
         # In order to get a proper markdown table,
         # you will have to also print a header line somewhere else.
 
-        print(f" | {x} | {runtimes['timsort']:0.2e}) | {runtimes['merge_sorted']:0.2e} | {runtimes['quick_sorted']:0.23e} ")
+        print(f" | {x} | {runtimes['timsort']:0.2e}) | {runtimes['merge_sorted']:0.2e} | {runtimes['quick_sorted']:0.23} ")
 
         # HINT:
         # use f-strings and a print statement that looks something like
